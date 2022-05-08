@@ -16,7 +16,7 @@ void print_game(int sanslisayi,int tur,float masabakiye,char* zenginkisi,float b
     printf("###----------------------------###\n");
     printf("###      EN ZENGIN KISI        ###\n");
     printf("###       %s                   ###\n",zenginkisi);
-    printf("###     BAKIYESI:%f            ###\n",bakiye);
+    printf("###     BAKIYESI:%-f            ###\n",bakiye);
     printf("###                            ###\n");
     printf("##################################\n");
 }
